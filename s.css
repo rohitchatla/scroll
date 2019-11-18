@@ -1,0 +1,19 @@
+/*body{
+margin: 0;
+padding: 0;
+background-size: cover;
+}
+.header{
+	position: relative;
+	margin: 1em;
+}*/
+.intro-text{
+	width: 40%;
+	opacity: 0;
+	transform: translateY(20px);
+	transition: 0.5s all ease-in-out;
+}
+.intro-appear{
+	opacity: 1;
+	transform: translateY(0px);
+}
